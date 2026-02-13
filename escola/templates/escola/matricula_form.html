@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block titulo %}Realizar Matrícula{% endblock %}
+
+{% block conteudo %}
+    <h2>Nova Matrícula</h2>
+    <form method="post">
+        {% csrf_token %}
+        <div class="mb-3">
+            {{ form.as_p }}
+        </div>
+        <button type="submit" class="btn btn-success">Salvar Matrícula</button>
+        <a href="{% url 'matricula_list' %}" class="btn btn-secondary">Cancelar</a>
+    </form>
+{% endblock %}

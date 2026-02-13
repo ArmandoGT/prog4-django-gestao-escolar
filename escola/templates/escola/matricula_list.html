@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block titulo %}Lista de Matrículas{% endblock %}
+
+{% block conteudo %}
+    <h2>Matrículas Realizadas</h2>
+    <a href="{% url 'matricula_create' %}" class="btn btn-primary mb-3">Nova Matrícula</a>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Aluno</th>
+                <th>Curso</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for m in matriculas %}
+            <tr>
+                <td>{{ m.cod_mat }}</td>
+                <td>{{ m.aluno.nome_aluno }}</td>
+                <td>{{ m.curso.nome_cur }}</td>
+                <td>{{ m.data_mat|date:"d/m/Y" }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="4">Nenhuma matrícula registrada.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
