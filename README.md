@@ -1,11 +1,11 @@
 <div align="center">
- <h1>
-    <img src="./escola/static/escola/IF.png" width="15" alt="Logo IFRO" />
-    Sistema de Gestão Escolar - Matrículas
-  </h1>
-  <p>
-    <strong>IFRO - Campus Ariquemes | Programação IV</strong>
-  </p>
+ <h1>Sistema de Gestão Escolar - Matrículas</h1>
+<p>
+    <strong>
+        <img src="./escola/static/escola/IF.png" width="18" style="vertical-align: middle;" alt="Logo IFRO" />
+        IFRO - Campus Ariquemes | Programação IV
+    </strong>
+</p>
 </div>
 
 <div align="center">
@@ -145,6 +145,6 @@ Acesse a aplicação em:
 
 <div align="center">
   <p>Desenvolvido por <strong>ArmandoGT</strong></p>
-  <p><img src="./escola/static/escola/IF.png" width="8" alt="Logo IFRO"/> 
+  <p><img src="./escola/static/escola/IF.png" width="15" style="vertical-align: middle;" alt="Logo IFRO" /> 
   IFRO - Instituto Federal de Rondônia</p>
 </div>
