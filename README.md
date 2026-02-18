@@ -89,7 +89,7 @@ Para executar o projeto localmente em sua máquina:
 
 1.  **Clonar o repositório:**
     ```bash
-    git clone [https://github.com/ArmandoGT/prog4-django-gestao-escolar.git](https://github.com/ArmandoGT/prog4-django-gestao-escolar.git)
+    git clone https://github.com/ArmandoGT/prog4-django-gestao-escolar.git
     cd prog4-django-gestao-escolar
     ```
 
